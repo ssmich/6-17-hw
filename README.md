@@ -24,7 +24,7 @@ Fundamentals, class, or that you find on your own.
 
 * Open the **Terminal app**
 
-* Make a directory in the folder created by this clone called `star_wars`.  
+* Make a directory in the folder created by this clone called `galaxy_far_far_away`.  
 
 * Create a file called `commands.txt`.
 
@@ -35,7 +35,7 @@ Fundamentals, class, or that you find on your own.
 
 ## Part I: Set the Scene
 
-Complete all work inside the `star_wars` folder.
+Complete all work inside the `galaxy_far_far_away` folder.
 
 1. Create a directory called `death_star`, and make the following files inside of it: `darth_vader.txt`, `princess_leia.txt`, `storm_trooper.txt`
 
