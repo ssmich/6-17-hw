@@ -1,0 +1,537 @@
+Last login: Mon Jun 17 11:12:52 on ttys000
+Staceys-MacBook-Pro:~ ssmich$ mkdir sei-autumn-sweaters
+Staceys-MacBook-Pro:~ ssmich$ pwd
+/Users/ssmich
+Staceys-MacBook-Pro:~ ssmich$ ls
+Applications		Movies			fundamentals
+Desktop			Music			funny_things
+Documents		Pictures		sei-autumn-sweaters
+Downloads		Public
+Library			World
+Staceys-MacBook-Pro:~ ssmich$ ls
+Applications		Movies			fundamentals
+Desktop			Music			funny_things
+Documents		Pictures		sei-autumn-sweaters
+Downloads		Public
+Library			World
+Staceys-MacBook-Pro:~ ssmich$ mkdir terminal-bash
+Staceys-MacBook-Pro:~ ssmich$ cd t
+-bash: cd: t: No such file or directory
+Staceys-MacBook-Pro:~ ssmich$ mkdir exercise
+Staceys-MacBook-Pro:~ ssmich$ cd exercise/
+Staceys-MacBook-Pro:exercise ssmich$ mkdir example1 example2 example3
+Staceys-MacBook-Pro:exercise ssmich$ ls
+example1	example2	example3
+Staceys-MacBook-Pro:exercise ssmich$ cd example1/
+Staceys-MacBook-Pro:example1 ssmich$ touch file1.txt
+Staceys-MacBook-Pro:example1 ssmich$ ls
+file1.txt
+Staceys-MacBook-Pro:example1 ssmich$ 
+Staceys-MacBook-Pro:example1 ssmich$ touch file2.txt file3.txt
+Staceys-MacBook-Pro:example1 ssmich$ ls
+file1.txt	file2.txt	file3.txt
+Staceys-MacBook-Pro:example1 ssmich$ cd ..
+Staceys-MacBook-Pro:exercise ssmich$ pwd
+/Users/ssmich/exercise
+Staceys-MacBook-Pro:exercise ssmich$ cd ~
+Staceys-MacBook-Pro:~ ssmich$ ls
+Applications		Movies			exercise
+Desktop			Music			fundamentals
+Documents		Pictures		funny_things
+Downloads		Public			sei-autumn-sweaters
+Library			World			terminal-bash
+Staceys-MacBook-Pro:~ ssmich$ cd terminal-bash/
+Staceys-MacBook-Pro:terminal-bash ssmich$ mkdir labyrinth
+Staceys-MacBook-Pro:terminal-bash ssmich$ ls
+labyrinth
+Staceys-MacBook-Pro:terminal-bash ssmich$ mkdir parlor stairway
+Staceys-MacBook-Pro:terminal-bash ssmich$ ls
+labyrinth	parlor		stairway
+Staceys-MacBook-Pro:terminal-bash ssmich$ cd labyrinth/
+Staceys-MacBook-Pro:labyrinth ssmich$ mkdir parlor stairway
+Staceys-MacBook-Pro:labyrinth ssmich$ ls
+parlor		stairway
+Staceys-MacBook-Pro:labyrinth ssmich$ cd parlor
+Staceys-MacBook-Pro:parlor ssmich$ mkdir ballroom dining_room
+Staceys-MacBook-Pro:parlor ssmich$ cd ..
+Staceys-MacBook-Pro:labyrinth ssmich$ pwd
+/Users/ssmich/terminal-bash/labyrinth
+Staceys-MacBook-Pro:labyrinth ssmich$ cd stairway/
+Staceys-MacBook-Pro:stairway ssmich$ pwd
+/Users/ssmich/terminal-bash/labyrinth/stairway
+Staceys-MacBook-Pro:stairway ssmich$ mkdir escher_room throne_room
+Staceys-MacBook-Pro:stairway ssmich$ ls
+escher_room	throne_room
+Staceys-MacBook-Pro:stairway ssmich$ cd th
+-bash: cd: th: No such file or directory
+Staceys-MacBook-Pro:stairway ssmich$ cd throne_room/
+Staceys-MacBook-Pro:throne_room ssmich$ mkdir goblin_king.txt
+Staceys-MacBook-Pro:throne_room ssmich$ cd ..
+Staceys-MacBook-Pro:stairway ssmich$ pwd
+/Users/ssmich/terminal-bash/labyrinth/stairway
+Staceys-MacBook-Pro:stairway ssmich$ cd ..
+Staceys-MacBook-Pro:labyrinth ssmich$ pwd
+/Users/ssmich/terminal-bash/labyrinth
+Staceys-MacBook-Pro:labyrinth ssmich$ cd parlor/
+Staceys-MacBook-Pro:parlor ssmich$ cd ballroom/
+Staceys-MacBook-Pro:ballroom ssmich$ touch sarah_williams.txt
+Staceys-MacBook-Pro:ballroom ssmich$ ls
+sarah_williams.txt
+Staceys-MacBook-Pro:ballroom ssmich$ tree
+-bash: tree: command not found
+Staceys-MacBook-Pro:ballroom ssmich$ pwd
+/Users/ssmich/terminal-bash/labyrinth/parlor/ballroom
+Staceys-MacBook-Pro:ballroom ssmich$ cd ../..
+Staceys-MacBook-Pro:labyrinth ssmich$ pwd
+/Users/ssmich/terminal-bash/labyrinth
+Staceys-MacBook-Pro:labyrinth ssmich$ cd ~/
+.CFUserTextEncoding  Documents/           World/
+.DS_Store            Downloads/           exercise/
+.Trash/              Library/             fundamentals/
+.bash_history        Movies/              funny_things/
+.bash_sessions/      Music/               sei-autumn-sweaters/
+Applications/        Pictures/            terminal-bash/
+Desktop/             Public/              
+Staceys-MacBook-Pro:labyrinth ssmich$ cd ~/
+.CFUserTextEncoding  Documents/           World/
+.DS_Store            Downloads/           exercise/
+.Trash/              Library/             fundamentals/
+.bash_history        Movies/              funny_things/
+.bash_sessions/      Music/               sei-autumn-sweaters/
+Applications/        Pictures/            terminal-bash/
+Desktop/             Public/              
+Staceys-MacBook-Pro:labyrinth ssmich$ cd ~/
+.CFUserTextEncoding  Documents/           World/
+.DS_Store            Downloads/           exercise/
+.Trash/              Library/             fundamentals/
+.bash_history        Movies/              funny_things/
+.bash_sessions/      Music/               sei-autumn-sweaters/
+Applications/        Pictures/            terminal-bash/
+Desktop/             Public/              
+Staceys-MacBook-Pro:labyrinth ssmich$ cd ~/
+.CFUserTextEncoding  Documents/           World/
+.DS_Store            Downloads/           exercise/
+.Trash/              Library/             fundamentals/
+.bash_history        Movies/              funny_things/
+.bash_sessions/      Music/               sei-autumn-sweaters/
+Applications/        Pictures/            terminal-bash/
+Desktop/             Public/              
+Staceys-MacBook-Pro:labyrinth ssmich$ cd ~/
+.CFUserTextEncoding  Documents/           World/
+.DS_Store            Downloads/           exercise/
+.Trash/              Library/             fundamentals/
+.bash_history        Movies/              funny_things/
+.bash_sessions/      Music/               sei-autumn-sweaters/
+Applications/        Pictures/            terminal-bash/
+Desktop/             Public/              
+Staceys-MacBook-Pro:labyrinth ssmich$ cd ~/
+.CFUserTextEncoding  Documents/           World/
+.DS_Store            Downloads/           exercise/
+.Trash/              Library/             fundamentals/
+.bash_history        Movies/              funny_things/
+.bash_sessions/      Music/               sei-autumn-sweaters/
+Applications/        Pictures/            terminal-bash/
+Desktop/             Public/              
+Staceys-MacBook-Pro:labyrinth ssmich$ cd ~/
+.CFUserTextEncoding  Documents/           World/
+.DS_Store            Downloads/           exercise/
+.Trash/              Library/             fundamentals/
+.bash_history        Movies/              funny_things/
+.bash_sessions/      Music/               sei-autumn-sweaters/
+Applications/        Pictures/            terminal-bash/
+Desktop/             Public/              
+Staceys-MacBook-Pro:labyrinth ssmich$ cd ~/Downloads/
+Staceys-MacBook-Pro:Downloads ssmich$ pwd
+/Users/ssmich/Downloads
+Staceys-MacBook-Pro:Downloads ssmich$ cd ~
+Staceys-MacBook-Pro:~ ssmich$ pwd
+/Users/ssmich
+Staceys-MacBook-Pro:~ ssmich$ ls
+Applications		Movies			exercise
+Desktop			Music			fundamentals
+Documents		Pictures		funny_things
+Downloads		Public			sei-autumn-sweaters
+Library			World			terminal-bash
+Staceys-MacBook-Pro:~ ssmich$ cd terminal-bash/
+Staceys-MacBook-Pro:terminal-bash ssmich$ pwd
+/Users/ssmich/terminal-bash
+Staceys-MacBook-Pro:terminal-bash ssmich$ mkdir starter_file_structure_for_lessons
+Staceys-MacBook-Pro:terminal-bash ssmich$ touch index.html
+Staceys-MacBook-Pro:terminal-bash ssmich$ mkdir js
+Staceys-MacBook-Pro:terminal-bash ssmich$ touch js/app.js
+Staceys-MacBook-Pro:terminal-bash ssmich$ ls
+index.html				parlor
+js					stairway
+labyrinth				starter_file_structure_for_lessons
+Staceys-MacBook-Pro:terminal-bash ssmich$ cd starter_file_structure_for_lessons/
+Staceys-MacBook-Pro:starter_file_structure_for_lessons ssmich$ ls
+Staceys-MacBook-Pro:starter_file_structure_for_lessons ssmich$ cd ..
+Staceys-MacBook-Pro:terminal-bash ssmich$ mv js starter_file_structure_for_lessons/
+Staceys-MacBook-Pro:terminal-bash ssmich$ ls
+index.html				stairway
+labyrinth				starter_file_structure_for_lessons
+parlor
+Staceys-MacBook-Pro:terminal-bash ssmich$ cd start
+-bash: cd: start: No such file or directory
+Staceys-MacBook-Pro:terminal-bash ssmich$ cd starter_file_structure_for_lessons/
+Staceys-MacBook-Pro:starter_file_structure_for_lessons ssmich$ ls
+js
+Staceys-MacBook-Pro:starter_file_structure_for_lessons ssmich$ clear
+
+Staceys-MacBook-Pro:starter_file_structure_for_lessons ssmich$ cd ~
+Staceys-MacBook-Pro:~ ssmich$ pwd
+/Users/ssmich
+Staceys-MacBook-Pro:~ ssmich$ nano ~/.bash_profile
+Staceys-MacBook-Pro:~ ssmich$ man ls
+Staceys-MacBook-Pro:~ ssmich$ ls
+Applications		Movies			exercise
+Desktop			Music			fundamentals
+Documents		Pictures		funny_things
+Downloads		Public			sei-autumn-sweaters
+Library			World			terminal-bash
+Staceys-MacBook-Pro:~ ssmich$ mkdir sei
+Staceys-MacBook-Pro:~ ssmich$ mkdir 190617
+Staceys-MacBook-Pro:~ ssmich$ rm 190617/
+rm: 190617/: is a directory
+Staceys-MacBook-Pro:~ ssmich$ mkdir sei/190617
+Staceys-MacBook-Pro:~ ssmich$ cd sei
+Staceys-MacBook-Pro:sei ssmich$ ls
+190617
+Staceys-MacBook-Pro:sei ssmich$ mkdir 190617/command-line-lab
+Staceys-MacBook-Pro:sei ssmich$ cd 190617/command-line-lab/
+Staceys-MacBook-Pro:command-line-lab ssmich$ mkdir my-favorite-things
+Staceys-MacBook-Pro:command-line-lab ssmich$ cd my-favorite-things/
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mkdir books
+Staceys-MacBook-Pro:my-favorite-things ssmich$ ls
+books
+Staceys-MacBook-Pro:my-favorite-things ssmich$ cd books/
+Staceys-MacBook-Pro:books ssmich$ mkdir shel_silverstein
+Staceys-MacBook-Pro:books ssmich$ touch shel_silverstein/where_the_sidewalk_ends.txt shel_silverstein/the_giving_tree
+Staceys-MacBook-Pro:books ssmich$ pwd
+/Users/ssmich/sei/190617/command-line-lab/my-favorite-things/books
+Staceys-MacBook-Pro:books ssmich$ cd shel_silverstein/
+Staceys-MacBook-Pro:shel_silverstein ssmich$ ls
+the_giving_tree			where_the_sidewalk_ends.txt
+Staceys-MacBook-Pro:shel_silverstein ssmich$ rm the_giving_tree 
+Staceys-MacBook-Pro:shel_silverstein ssmich$ ls
+where_the_sidewalk_ends.txt
+Staceys-MacBook-Pro:shel_silverstein ssmich$ touch the_giving_tree.txt
+Staceys-MacBook-Pro:shel_silverstein ssmich$ ls
+the_giving_tree.txt		where_the_sidewalk_ends.txt
+Staceys-MacBook-Pro:shel_silverstein ssmich$ mv the_giving_tree.txt the_giving_tree.html
+Staceys-MacBook-Pro:shel_silverstein ssmich$ ls
+the_giving_tree.html		where_the_sidewalk_ends.txt
+Staceys-MacBook-Pro:shel_silverstein ssmich$ mv where_the_sidewalk_ends.txt where_the_sidewalk_ends.html
+Staceys-MacBook-Pro:shel_silverstein ssmich$ ls
+the_giving_tree.html		where_the_sidewalk_ends.html
+Staceys-MacBook-Pro:shel_silverstein ssmich$ cd ..
+Staceys-MacBook-Pro:books ssmich$ cd ..
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mkdir movies/reese_witherspoon/legally_blonde
+mkdir: movies/reese_witherspoon: No such file or directory
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mkdir reese_witherspoon
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mkdir reese_witherspoon/legally_blonde
+Staceys-MacBook-Pro:my-favorite-things ssmich$ touch reese_witherspoon/elle_woods.txt
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mkdir movies
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mv -r reese_witherspoon/ /movies/
+mv: illegal option -- r
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mv -r reese_witherspoon/ movies/
+mv: illegal option -- r
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mv -r reese_witherspoon movies
+mv: illegal option -- r
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mv reese_witherspoon movies
+Staceys-MacBook-Pro:my-favorite-things ssmich$ ls
+books	movies
+Staceys-MacBook-Pro:my-favorite-things ssmich$ cd movies
+Staceys-MacBook-Pro:movies ssmich$ ls
+reese_witherspoon
+Staceys-MacBook-Pro:movies ssmich$ cd reese_witherspoon/
+Staceys-MacBook-Pro:reese_witherspoon ssmich$ ls
+elle_woods.txt	legally_blonde
+Staceys-MacBook-Pro:reese_witherspoon ssmich$ ../
+-bash: ../: is a directory
+Staceys-MacBook-Pro:reese_witherspoon ssmich$ cd ..
+Staceys-MacBook-Pro:movies ssmich$ cd ..
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mkdir music
+Staceys-MacBook-Pro:my-favorite-things ssmich$ cd music
+Staceys-MacBook-Pro:music ssmich$ mkdir disco creed one-direction the-strokes rihanna
+Staceys-MacBook-Pro:music ssmich$ ls
+creed		disco		one-direction	rihanna		the-strokes
+Staceys-MacBook-Pro:music ssmich$ touch disco/ymca.txt
+Staceys-MacBook-Pro:music ssmich$ rm -r disco/
+Staceys-MacBook-Pro:music ssmich$ ls
+creed		one-direction	rihanna		the-strokes
+Staceys-MacBook-Pro:music ssmich$ rm creed/
+rm: creed/: is a directory
+Staceys-MacBook-Pro:music ssmich$ rm -r creed/
+Staceys-MacBook-Pro:music ssmich$ ls
+one-direction	rihanna		the-strokes
+Staceys-MacBook-Pro:music ssmich$ touch one-direction/what-makes-you-beautiful.txt
+Staceys-MacBook-Pro:music ssmich$ cd one-direction/
+Staceys-MacBook-Pro:one-direction ssmich$ cd ..
+Staceys-MacBook-Pro:music ssmich$ cd one-direction/
+Staceys-MacBook-Pro:one-direction ssmich$ cp what-makes-you-beautiful.txt ../the-strokes/ ../rihanna/
+cp: ../the-strokes/ is a directory (not copied).
+Staceys-MacBook-Pro:one-direction ssmich$ cp what-makes-you-beautiful.txt ../
+Staceys-MacBook-Pro:one-direction ssmich$ cd ..
+Staceys-MacBook-Pro:music ssmich$ cd the-strokes/
+Staceys-MacBook-Pro:the-strokes ssmich$ ls
+Staceys-MacBook-Pro:the-strokes ssmich$ cd ..
+Staceys-MacBook-Pro:music ssmich$ ls
+one-direction			the-strokes
+rihanna				what-makes-you-beautiful.txt
+Staceys-MacBook-Pro:music ssmich$ cp what-makes-you-beautiful.txt the-strokes/
+Staceys-MacBook-Pro:music ssmich$ cd the-strokes/
+Staceys-MacBook-Pro:the-strokes ssmich$ ls
+what-makes-you-beautiful.txt
+Staceys-MacBook-Pro:the-strokes ssmich$ cd ..
+Staceys-MacBook-Pro:music ssmich$ mv what-makes-you-beautiful.txt rihanna/
+Staceys-MacBook-Pro:music ssmich$ cd rihanna/
+Staceys-MacBook-Pro:rihanna ssmich$ mv what-makes-you-beautiful.txt work.txt
+Staceys-MacBook-Pro:rihanna ssmich$ ls
+work.txt
+Staceys-MacBook-Pro:rihanna ssmich$ cd ../the-strokes/
+Staceys-MacBook-Pro:the-strokes ssmich$ mv what-makes-you-beautiful.txt last_nite.txt
+Staceys-MacBook-Pro:the-strokes ssmich$ ls
+last_nite.txt
+Staceys-MacBook-Pro:the-strokes ssmich$ cd ..
+Staceys-MacBook-Pro:music ssmich$ cd ..
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mkdir media
+Staceys-MacBook-Pro:my-favorite-things ssmich$ ls
+books	media	movies	music
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mv /books /movies media/
+mv: rename /books to media/books: No such file or directory
+mv: rename /movies to media/movies: No such file or directory
+Staceys-MacBook-Pro:my-favorite-things ssmich$ ls
+books	media	movies	music
+Staceys-MacBook-Pro:my-favorite-things ssmich$ cd media
+Staceys-MacBook-Pro:media ssmich$ cd ..
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mv books media
+Staceys-MacBook-Pro:my-favorite-things ssmich$ ls
+media	movies	music
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mv movies music media
+Staceys-MacBook-Pro:my-favorite-things ssmich$ ls
+media
+Staceys-MacBook-Pro:my-favorite-things ssmich$ mv media 2015-media
+Staceys-MacBook-Pro:my-favorite-things ssmich$ ls
+2015-media
+Staceys-MacBook-Pro:my-favorite-things ssmich$ cp 2015-media media
+cp: 2015-media is a directory (not copied).
+Staceys-MacBook-Pro:my-favorite-things ssmich$ cp 2015-media
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+Staceys-MacBook-Pro:my-favorite-things ssmich$ cp -r 2015-media media
+Staceys-MacBook-Pro:my-favorite-things ssmich$ ls
+2015-media	media
+Staceys-MacBook-Pro:my-favorite-things ssmich$ cd 2015-media/
+Staceys-MacBook-Pro:2015-media ssmich$ ls
+books	movies	music
+Staceys-MacBook-Pro:2015-media ssmich$ cd ..
+Staceys-MacBook-Pro:my-favorite-things ssmich$ cd me
+-bash: cd: me: No such file or directory
+Staceys-MacBook-Pro:my-favorite-things ssmich$ cd media/
+Staceys-MacBook-Pro:media ssmich$ ls
+books	movies	music
+Staceys-MacBook-Pro:media ssmich$ cd ..
+Staceys-MacBook-Pro:my-favorite-things ssmich$ cd 2015-media/
+Staceys-MacBook-Pro:2015-media ssmich$ ls
+books	movies	music
+Staceys-MacBook-Pro:2015-media ssmich$ mv books/ 2015-books
+Staceys-MacBook-Pro:2015-media ssmich$ ls
+2015-books	movies		music
+Staceys-MacBook-Pro:2015-media ssmich$ mv movies/ 2015-movies
+Staceys-MacBook-Pro:2015-media ssmich$ mv music/ 2015-music
+Staceys-MacBook-Pro:2015-media ssmich$ ls
+2015-books	2015-movies	2015-music
+Staceys-MacBook-Pro:2015-media ssmich$ touch 2015-books/top-ten-movies.html
+Staceys-MacBook-Pro:2015-media ssmich$ cd 2015-books/
+Staceys-MacBook-Pro:2015-books ssmich$ ls
+shel_silverstein	top-ten-movies.html
+Staceys-MacBook-Pro:2015-books ssmich$ rm -r shel_silverstein/
+Staceys-MacBook-Pro:2015-books ssmich$ ls
+top-ten-movies.html
+Staceys-MacBook-Pro:2015-books ssmich$ cp top-ten-movies.html ../2015-movies/ ../2015-music/
+cp: ../2015-movies/ is a directory (not copied).
+Staceys-MacBook-Pro:2015-books ssmich$ cp top-ten-movies.html ../2015-movies
+Staceys-MacBook-Pro:2015-books ssmich$ cp top-ten-movies.html ../2015-music
+Staceys-MacBook-Pro:2015-books ssmich$ cd ..
+Staceys-MacBook-Pro:2015-media ssmich$ cd 2015-movies/
+Staceys-MacBook-Pro:2015-movies ssmich$ ls
+reese_witherspoon	top-ten-movies.html
+Staceys-MacBook-Pro:2015-movies ssmich$ rm -r reese_witherspoon/
+Staceys-MacBook-Pro:2015-movies ssmich$ ls
+top-ten-movies.html
+Staceys-MacBook-Pro:2015-movies ssmich$ cd ..
+Staceys-MacBook-Pro:2015-media ssmich$ ls
+2015-books	2015-movies	2015-music
+Staceys-MacBook-Pro:2015-media ssmich$ cd 2015-books/
+Staceys-MacBook-Pro:2015-books ssmich$ ls
+top-ten-movies.html
+Staceys-MacBook-Pro:2015-books ssmich$ mv top-ten-movies.html top-ten-books.html
+Staceys-MacBook-Pro:2015-books ssmich$ ls
+top-ten-books.html
+Staceys-MacBook-Pro:2015-books ssmich$ cd ..
+Staceys-MacBook-Pro:2015-media ssmich$ cd 2015-music/
+Staceys-MacBook-Pro:2015-music ssmich$ ls
+one-direction		the-strokes
+rihanna			top-ten-movies.html
+Staceys-MacBook-Pro:2015-music ssmich$ rm -r one-direction/ the-strokes/ rihanna/
+Staceys-MacBook-Pro:2015-music ssmich$ ls
+top-ten-movies.html
+Staceys-MacBook-Pro:2015-music ssmich$ mv top-ten-movies.html top-ten-music.html
+Staceys-MacBook-Pro:2015-music ssmich$ ls
+top-ten-music.html
+Staceys-MacBook-Pro:2015-music ssmich$ clear
+
+Staceys-MacBook-Pro:2015-music ssmich$ cd ~
+Staceys-MacBook-Pro:~ ssmich$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Staceys-MacBook-Pro:~ ssmich$ ls
+190617			Movies			fundamentals
+Applications		Music			funny_things
+Desktop			Pictures		sei
+Documents		Public			sei-autumn-sweaters
+Downloads		World			terminal-bash
+Library			exercise
+Staceys-MacBook-Pro:~ ssmich$ rm -r sei-autumn-sweaters/
+Staceys-MacBook-Pro:~ ssmich$ cd sei/
+Staceys-MacBook-Pro:sei ssmich$ ls
+190617
+Staceys-MacBook-Pro:sei ssmich$ cd 190617/
+Staceys-MacBook-Pro:190617 ssmich$ ls
+command-line-lab
+Staceys-MacBook-Pro:190617 ssmich$ mkdir hw_unix_CLI_practice
+Staceys-MacBook-Pro:190617 ssmich$ ls
+command-line-lab	hw_unix_CLI_practice
+Staceys-MacBook-Pro:190617 ssmich$ cd hw_unix_CLI_practice/
+Staceys-MacBook-Pro:hw_unix_CLI_practice ssmich$ mkdir star_wars
+Staceys-MacBook-Pro:hw_unix_CLI_practice ssmich$ touch commands.txt
+Staceys-MacBook-Pro:hw_unix_CLI_practice ssmich$ cd star_wars/
+Staceys-MacBook-Pro:star_wars ssmich$ mkdir death_star
+Staceys-MacBook-Pro:star_wars ssmich$ touch darth_vader.txt princess_leia.txt storm_trooper.txt death_star/
+Staceys-MacBook-Pro:star_wars ssmich$ cd death_star/
+Staceys-MacBook-Pro:death_star ssmich$ ls
+Staceys-MacBook-Pro:death_star ssmich$ cd ..
+Staceys-MacBook-Pro:star_wars ssmich$ ls
+darth_vader.txt		princess_leia.txt
+death_star		storm_trooper.txt
+Staceys-MacBook-Pro:star_wars ssmich$ rm darth_vader.txt princess_leia.txt storm_trooper.tx
+rm: storm_trooper.tx: No such file or directory
+Staceys-MacBook-Pro:star_wars ssmich$ ls
+death_star		storm_trooper.txt
+Staceys-MacBook-Pro:star_wars ssmich$ rm storm_trooper.txt
+Staceys-MacBook-Pro:star_wars ssmich$ ls
+death_star
+Staceys-MacBook-Pro:star_wars ssmich$ cd death_star/
+Staceys-MacBook-Pro:death_star ssmich$ touch darth_vader.txt princess_leia.txt storm_trooper_txt
+Staceys-MacBook-Pro:death_star ssmich$ ls
+darth_vader.txt		princess_leia.txt	storm_trooper_txt
+Staceys-MacBook-Pro:death_star ssmich$ cd ..
+Staceys-MacBook-Pro:star_wars ssmich$ mkdir galaxy_far_far_away
+Staceys-MacBook-Pro:star_wars ssmich$ mkdir galaxy_far_far_away/tatooine
+Staceys-MacBook-Pro:star_wars ssmich$ ls
+death_star		galaxy_far_far_away
+Staceys-MacBook-Pro:star_wars ssmich$ cd galaxy_far_far_away/
+Staceys-MacBook-Pro:galaxy_far_far_away ssmich$ ls
+tatooine
+Staceys-MacBook-Pro:galaxy_far_far_away ssmich$ cd ..
+Staceys-MacBook-Pro:star_wars ssmich$ cd galaxy_far_far_away/tatooine/
+Staceys-MacBook-Pro:tatooine ssmich$ touch luke.txt ben_kenobi.txt
+Staceys-MacBook-Pro:tatooine ssmich$ ls
+ben_kenobi.txt	luke.txt
+Staceys-MacBook-Pro:tatooine ssmich$ mkdir millenium_falcon
+Staceys-MacBook-Pro:tatooine ssmich$ cd millenium_falcon/
+Staceys-MacBook-Pro:millenium_falcon ssmich$ touch han_solo.txt chewbaca.txt
+Staceys-MacBook-Pro:millenium_falcon ssmich$ ls
+chewbaca.txt	han_solo.txt
+Staceys-MacBook-Pro:millenium_falcon ssmich$ cd ..
+Staceys-MacBook-Pro:tatooine ssmich$ mv ben_kenobi.tx obi_wan.tx
+mv: rename ben_kenobi.tx to obi_wan.tx: No such file or directory
+Staceys-MacBook-Pro:tatooine ssmich$ mv ben_kenobi.txt obi_wan.txt
+Staceys-MacBook-Pro:tatooine ssmich$ ls
+luke.txt		obi_wan.txt
+millenium_falcon
+Staceys-MacBook-Pro:tatooine ssmich$ cd ../..
+Staceys-MacBook-Pro:star_wars ssmich$ cd galaxy_far_far_away/tatooine/
+Staceys-MacBook-Pro:tatooine ssmich$ cd ..
+Staceys-MacBook-Pro:galaxy_far_far_away ssmich$ cd tatooine/
+Staceys-MacBook-Pro:tatooine ssmich$ cd ../../death_star/
+Staceys-MacBook-Pro:death_star ssmich$ cp storm_trooper_txt tatooine/
+cp: directory tatooine does not exist
+Staceys-MacBook-Pro:death_star ssmich$ cp storm_trooper_txt /tatooine
+cp: /tatooine: Permission denied
+Staceys-MacBook-Pro:death_star ssmich$ cp storm_trooper_txt ../galaxy_far_far_away/tatooine/
+Staceys-MacBook-Pro:death_star ssmich$ cd ..
+Staceys-MacBook-Pro:star_wars ssmich$ cd galaxy_far_far_away/tatooine/
+Staceys-MacBook-Pro:tatooine ssmich$ ls
+luke.txt		obi_wan.txt
+millenium_falcon	storm_trooper_txt
+Staceys-MacBook-Pro:tatooine ssmich$ mv storm_trooper_txt storm_trooper.txt
+Staceys-MacBook-Pro:tatooine ssmich$ ls
+luke.txt		obi_wan.txt
+millenium_falcon	storm_trooper.txt
+Staceys-MacBook-Pro:tatooine ssmich$ cd ../../death_star/
+Staceys-MacBook-Pro:death_star ssmich$ mv storm_trooper_txt storm_trooper.txt
+Staceys-MacBook-Pro:death_star ssmich$ ls
+darth_vader.txt		storm_trooper.txt
+princess_leia.txt
+Staceys-MacBook-Pro:death_star ssmich$ cd ../galaxy_far_far_away/tatooine/
+Staceys-MacBook-Pro:tatooine ssmich$ mv luke.txt obi_wan.txt millenium_falcon
+Staceys-MacBook-Pro:tatooine ssmich$ cd millenium_falcon/
+Staceys-MacBook-Pro:millenium_falcon ssmich$ ls
+chewbaca.txt	han_solo.txt	luke.txt	obi_wan.txt
+Staceys-MacBook-Pro:millenium_falcon ssmich$ cd ../..
+Staceys-MacBook-Pro:galaxy_far_far_away ssmich$ cd ..
+Staceys-MacBook-Pro:star_wars ssmich$ cd ..
+Staceys-MacBook-Pro:hw_unix_CLI_practice ssmich$ mkdir star_wars_practice
+Staceys-MacBook-Pro:hw_unix_CLI_practice ssmich$ 
+Staceys-MacBook-Pro:hw_unix_CLI_practice ssmich$ clear
+
+Staceys-MacBook-Pro:hw_unix_CLI_practice ssmich$ ls
+commands.txt		star_wars_practice
+star_wars
+Staceys-MacBook-Pro:hw_unix_CLI_practice ssmich$ cd star_wars_practice/
+Staceys-MacBook-Pro:star_wars_practice ssmich$ mkdir death_star
+Staceys-MacBook-Pro:star_wars_practice ssmich$ cd death_star/
+Staceys-MacBook-Pro:death_star ssmich$ touch darth_vader.txt princess_leia.txt storm_trooper.txt
+Staceys-MacBook-Pro:death_star ssmich$ cd ..
+Staceys-MacBook-Pro:star_wars_practice ssmich$ mkdir galaxy_far_far_away
+Staceys-MacBook-Pro:star_wars_practice ssmich$ mkdir galaxy_far_far_away/tatooine
+Staceys-MacBook-Pro:star_wars_practice ssmich$ cd galaxy_far_far_away/tatooine/
+Staceys-MacBook-Pro:tatooine ssmich$ touch luke.txt ben_kenobi.txt
+Staceys-MacBook-Pro:tatooine ssmich$ mkdir millenium_falcon
+Staceys-MacBook-Pro:tatooine ssmich$ cd millenium_falcon/
+Staceys-MacBook-Pro:millenium_falcon ssmich$ touch han_solo.txt chewbaca.txt
+Staceys-MacBook-Pro:millenium_falcon ssmich$ cd ..
+Staceys-MacBook-Pro:tatooine ssmich$ mv ben_kenobi.txt obi_wan.txt
+Staceys-MacBook-Pro:tatooine ssmich$ cd ../../death_star/
+Staceys-MacBook-Pro:death_star ssmich$ cp storm_trooper.txt ../galaxy_far_far_away/tatooine/
+Staceys-MacBook-Pro:death_star ssmich$ cd ../galaxy_far_far_away/tatooine/
+Staceys-MacBook-Pro:tatooine ssmich$ mv luke.txt obi_wan.txt millenium_falcon
+Staceys-MacBook-Pro:tatooine ssmich$ 
